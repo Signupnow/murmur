@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  murmur:
+    build: .
+    image: murmur
+    ports:
+      - "64738:64738"
+      - "64738:64738/udp"
