@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  murmur:
+    image: kppqju77/murmur
+    ports:
+      - "10.8.0.150:64738:64738"
+      - "10.8.0.150:64738:64738/udp"
